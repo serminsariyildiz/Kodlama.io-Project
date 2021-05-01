@@ -9,12 +9,12 @@ public class Main {
 
 	public static void main(String[] args) 
 	{
-		Student ogrenci = new Student("Ömerciğim", "Ceyhan");
-		Instructor ogretmen = new Instructor("Ömer", "Ceyhan","Developer");
+		Student ogrenci = new Student("Ã–ÄŸrenci", "SoyadÄ±");
+		Instructor ogretmen = new Instructor("Ã–ÄŸretmen", "SoyadÄ±","Developer");
 		
 		UserManager userManager = new UserManager();
-		userManager.adSoyadYazdır(ogrenci);
-		userManager.adSoyadYazdır(ogretmen);
+		userManager.adSoyadYazdÃ½r(ogrenci);
+		userManager.adSoyadYazdÃ½r(ogretmen);
 		
 		StudentManager studentManager = new StudentManager();
 		studentManager.numaraAta(ogrenci, 1);
